@@ -1,0 +1,17 @@
+{
+  "name": "serverreceiver",
+  "version": "1.0.0",
+  "description": "Receives JSON POSTs from Minecraft servers and stores them in MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["minecraft", "server", "monitoring", "json", "mongo"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  }
+}
